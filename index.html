@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Amine-Portfolio</title>
+</head>
+<body>
+
+<!-- Le header de ma page -->
+    <header>
+        <h1>Amine Ben Nasr - Développeur full-stack</h1>
+    </header>
+
+
+    <!-- L'introduction -->
+    <section id="introduction">
+        <p>Bienvenue sur ma page web personnelle ! Je m'appelle Amine Ben Nasr, et je suis un développeur full stack. Ici, vous pouvez explorer Mes Compétences, découvrir mes Projets, et bien sûr, n'hésitez pas à me contacter en utilisant la section Contactez-moi ci-dessous.</p>
+    </section>
+
+
+    <!-- La liste de mes compétences -->
+    <section id="compétences">
+        <h2>Mes Compétences</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+
+
+    <!-- Mes projets -->
+    <section id="projets">
+        <h2>Mes Projets</h2>
+        <!-- Projet num 1 ************************************************************************************* -->
+        <div class="projet">
+            <h3>Site web pour un restaurant</h3>
+            <p>
+                Ce projet est un site web dynamique pour un restaurant fictif appelé "Le Petit Bistrot". J'ai développé ce site dans le cadre de mon projet de fin d'études. 
+                Il permet aux utilisateurs de consulter le menu du restaurant et de commander de la nourriture en ligne. Le site comprend également un tableau de bord administrateur 
+                qui permet aux administrateurs de gérer le menu et de prendre les commandes des clients.
+            </p>
+            <p>Explorez le site en cliquant sur ce lien : <a href="https://lepetitbistrot.000webhostapp.com/index.php" target="_blank">Le Petit Bistrot</a>.</p>
+        </div>
+        <!-- Projet num 2 ************************************************************************************* -->
+        <div class="projet">
+            <h3>COUNTER</h3>
+            <p>
+                L'application COUNTER est un outil simple permettant de gérer le compteur avec les options de incrémenter, décrémenter, et réinitialiser le compteur. 
+                Son interface minimaliste offre une expérience conviviale pour compter des éléments ou simplement pour le plaisir.
+            </p>
+            <p>Explorez le site en cliquant sur ce lien : <a href="https://aminebennasr.github.io/Counter-App/" target="_blank">COUNTER</a>.</p>
+        </div>
+        <!-- Projet num 3 ************************************************************************************* -->
+        <div class="projet">
+            <h3>TIP CALCULATOR</h3>
+            <p>
+                Le TIP CALCULATOR est un outil pratique conçu pour calculer les pourboires de manière simple. Il suffit d'entrer le montant de la facture en dinar tunisien, 
+                de choisir le pourcentage de pourboire de 5% à 25%, de spécifier le nombre de personnes partageant l'addition, puis de cliquer sur "CALCULATE TIP!". L'application 
+                fournit instantanément le montant du pourboire par personne, simplifiant ainsi le processus de division des frais et garantissant un calcul de pourboire pratique et précis pour chaque personne.
+            </p>
+            <p>Explorez le site en cliquant sur ce lien : <a href="https://aminebennasr.github.io/Tip-Calculator/" target="_blank">TIP CALCULATOR</a>.</p>
+        </div>
+        <!-- Projet num 4 ************************************************************************************* -->
+        <div class="projet">
+            <h3>Text Counter</h3>
+            <p>
+                Text Counter est un outil simple qui offre un retour en temps réel pendant que vous écrivez. Il affiche instantanément le nombre de caractères, de mots, de lignes et de symboles dans le texte. 
+                Cette application conviviale est conçue pour vous fournir rapidement et avec précision des informations sur la composition de votre texte, en faisant d'elle un compagnon pratique pour ceux qui 
+                ont besoin de surveiller ou d'analyser leur écriture en cours de rédaction.
+            </p>
+            <p>Explorez le site en cliquant sur ce lien : <a href="https://aminebennasr.github.io/Text-Counter/" target="_blank">Text Counter</a>.</p>
+        </div>
+    </section>
+
+
+    <!-- Formulaire de contact -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form id="contactForm">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="button" onclick="validateForm()">Envoyer</button>
+        </form>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

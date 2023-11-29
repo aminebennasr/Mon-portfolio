@@ -1,0 +1,110 @@
+/* Style global pour le corps de la page */
+body {
+    background-color: #F2F2F2;
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du header */
+header {
+    background-color: #7498A5;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    border: 2px solid #456789;
+    background-image: linear-gradient(to bottom, #7498A5, #56787F); /* dégradé entre deux couleurs */
+    border-radius: 0 0 25% 25%; /* pour changer le forme du header */
+}
+
+/* Style pour les h1 */
+h1 {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px #333; /* pour ajouter une ombre au texte */
+}
+
+/* Style pour les sections en générale */
+section {
+    margin: 20px;
+}
+
+/* Style spécifique pour la section introduction */
+#introduction {
+    text-align: center;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+/* Style spécifique pour la section compétences */
+#compétences {
+    margin: 20px;
+}
+
+/* Style pour les listes non ordonnées (ma liste des compétences) */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style pour les éléments de ma liste des compétences */
+li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    background-color: #7498A5;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Style pour les projets */
+.projet {
+    background-color: #ffffff;
+    border: 1px solid #4F4F4F;
+    border-radius: 5px;
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+/* Style pour les liens (pour changer le couleur violet par défaut et supprimer le soulignement) */
+a {
+    color: #7498A5;
+    text-decoration: none;
+}
+
+/* Style des liens au survol avec la souris */
+a:hover {
+    text-decoration: underline;
+    color: #4E6F7B;
+}
+
+/* Style pour la formulaire du contact */
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+/* Style pour les étiquettes de formulaire (nom, email et message) */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style pour le boutons du formulaire */
+button {
+    background-color: #7498A5;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+/* Style pour le boutons du formulaire au survol avec la souris */
+button:hover {
+    background-color: #4E6F7B;
+    color: #ffffff;
+}
